@@ -1,0 +1,78 @@
+.login-box{
+    height: 300px;
+    width: 40vw;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 30px auto ;
+}
+
+
+
+.mobile{
+    margin: 30px ;
+    
+}
+.mobile  input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 33vw;
+    padding: 0 10px;
+}
+.otp{
+    margin: 30px 0px 30px 30px;
+}
+.message{
+    margin: 5px 0;
+    width: 33vw;
+}
+
+
+.request-box{
+    margin: 50px auto;
+
+    text-align: center;
+}
+
+#inputGroupSelect01{
+    width: 30vw;
+}
+
+.request {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(45deg, #ede176, #62b439);
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.request:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #f7b733, #ff6b6b);
+}
+
+@media (max-width : 800px) {
+    .request{
+        font-size: 0.5rem;
+        width: 30vw;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width:700px) {
+    .login-box{
+        width: 90vw;
+    }
+    .mobile input , .message{
+        width: 70vmin;
+        padding: 0 5px;
+    }
+
+}
+
+.request:active{
+    color: rgb(72, 0, 255);
+}
